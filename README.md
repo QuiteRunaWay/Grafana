@@ -90,7 +90,7 @@ Dashbord с Alert`ами:
 
 <details> 
   <summary>JSON MODEL</summary>
-  ```json
+    `
   {
   "annotations": {
     "list": [
@@ -712,7 +712,7 @@ Dashbord с Alert`ами:
   "version": 18
 }
 
-```
+`
 </details>
 
 
