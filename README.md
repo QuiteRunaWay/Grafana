@@ -57,13 +57,11 @@
 
 ![image](https://user-images.githubusercontent.com/92969676/177316874-d6db5f1f-60ef-4705-aab8-82d5d8ce70ec.png)
 
-Итоговый Дашборд:
-
-![image](https://user-images.githubusercontent.com/92969676/177321315-06d6bc3e-b784-4740-aa33-0870826b87dd.png)
 
 Чуть поднастроил ось Y, итоговый Дашборд:
 
-![image](https://user-images.githubusercontent.com/92969676/177325930-69108cae-ccae-460d-9929-234bf526d10b.png)
+![image](https://user-images.githubusercontent.com/92969676/177335380-ddac37f1-5653-4b6f-975d-c2b47c1c7822.png)
+
 
 ## Задание 3
 Создайте для каждой Dashboard подходящее правило alert (можно обратиться к первой лекции в блоке "Мониторинг").
