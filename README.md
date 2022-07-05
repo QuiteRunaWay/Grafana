@@ -29,6 +29,34 @@
 
 Для решения данного ДЗ приведите promql запросы для выдачи этих метрик, а также скриншот получившейся Dashboard.
 
+- Утилизация CPU для nodeexporter (в процентах, 100-idle)
+
+100 * (1-avg by(instance)(rate(node_cpu_seconds_total{mode="idle"}[5m])))
+
+![image](https://user-images.githubusercontent.com/92969676/177320967-0f94542b-96f5-4b9d-95df-9065d09acf1d.png)
+
+- CPULA 1/5/15: три запроса: 
+
+node_load1, node_load5, node_load15
+
+![image](https://user-images.githubusercontent.com/92969676/177318225-353f8034-b2e4-4727-ab0d-e37daec859d3.png)
+
+- Количество свободной оперативной памяти: 
+
+100*(node_memory_Inactive_bytes  / on (instance) node_memory_MemTotal_bytes) (чтобы в процентах посмотреть, еще на 100 умножил).
+
+![image](https://user-images.githubusercontent.com/92969676/177319997-6e768241-8460-4aa2-902d-429644834867.png)
+
+- Количество места на файловой системе: 
+
+node_filesystem_avail_bytes{fstype!~"tmpfs|fuse.lxcfs|squashfs"} / node_filesystem_size_bytes{fstype!~"tmpfs|fuse.lxcfs|squashfs"}
+
+![image](https://user-images.githubusercontent.com/92969676/177318786-61feb948-ae76-4a93-99b5-cfab1b71d327.png)
+
+В Prometheus так же порпобовал повыбирать метрики произвольные...
+
+![image](https://user-images.githubusercontent.com/92969676/177316874-d6db5f1f-60ef-4705-aab8-82d5d8ce70ec.png)
+
 ## Задание 3
 Создайте для каждой Dashboard подходящее правило alert (можно обратиться к первой лекции в блоке "Мониторинг").
 
