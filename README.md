@@ -60,7 +60,7 @@
 
 Чуть поднастроил ось Y, итоговый Дашборд:
 
-![image](https://user-images.githubusercontent.com/92969676/177335380-ddac37f1-5653-4b6f-975d-c2b47c1c7822.png)
+![image](https://user-images.githubusercontent.com/92969676/177335844-1c1a6e91-b5d3-46f6-98c1-276226b0e922.png)
 
 
 ## Задание 3
