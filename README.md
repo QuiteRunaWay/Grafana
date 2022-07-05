@@ -88,10 +88,9 @@ Dashbord с Alert`ами:
 
 Листинг Файла:
 
-```
 <details> 
   <summary>JSON MODEL</summary>
-  
+  ```
   {
   "annotations": {
     "list": [
@@ -713,7 +712,8 @@ Dashbord с Alert`ами:
   "version": 18
 }
 
-</details>
 ```
+</details>
+
 
 Файл с содержимым JSON модели так же приведен в отдельном файле в текущем репозитории.
