@@ -90,7 +90,7 @@ Dashbord с Alert`ами:
 
 <details> 
   <summary>JSON MODEL</summary>
-  
+  ```
   {
   "annotations": {
     "list": [
