@@ -88,8 +88,13 @@ Dashbord с Alert`ами:
 
 Листинг Файла:
 
-```
-  {
+<details>
+<summary style="font-size:14px">View code</summary>
+<p>
+
+\```md
+
+{
   "annotations": {
     "list": [
       {
@@ -709,5 +714,9 @@ Dashbord с Alert`ами:
   "uid": "_q7avv6nz",
   "version": 18
 }
-```
+
+\```
+
+</p></details>
+
 Файл с содержимым JSON модели так же приведен в отдельном файле в текущем репозитории.
